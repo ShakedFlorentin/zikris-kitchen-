@@ -2,6 +2,8 @@
 
 Landing page prototype for **Zikry Kitchens · זיקרי מטבחים**, a family carpentry shop making boutique, custom kitchens and interior woodwork.
 
+**Live site:** https://shakedflorentin.github.io/zikris-kitchen-/ (deployed by GitHub Actions on every push to `main`)
+
 ## Concept: a slow ballet
 
 The site presents luxury, boutique kitchens with controlled, theatrical movement:
@@ -27,4 +29,4 @@ Hebrew and RTL throughout. The accessibility menu has larger text, high contrast
   - GSAP 3.15.0 with ScrollTrigger, SplitText and DrawSVG: free including plugins, under the [GSAP standard license](https://gsap.com/standard-license).
   - Lenis 1.3.27 (MIT).
 
-There's no build step. Drag the folder onto Netlify, or serve it locally (for example `python3 -m http.server`).
+There's no build step. `.github/workflows/deploy.yml` publishes the repository to GitHub Pages whenever `main` changes. To preview locally, serve the folder (for example `python3 -m http.server`).
