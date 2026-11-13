@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shakedflorentin.github.io/zikris-kitchen-/sitemap.xml
